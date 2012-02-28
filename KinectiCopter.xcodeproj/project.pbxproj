@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A42D20C14FD53D10057876F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42D20B14FD53D10057876F /* Cocoa.framework */; };
+		1A42D21614FD53D20057876F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A42D21414FD53D20057876F /* InfoPlist.strings */; };
+		1A42D21814FD53D20057876F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42D21714FD53D20057876F /* main.m */; };
+		1A42D21C14FD53D20057876F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1A42D21A14FD53D20057876F /* Credits.rtf */; };
+		1A42D21F14FD53D20057876F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42D21E14FD53D20057876F /* AppDelegate.m */; };
+		1A42D22214FD53D20057876F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A42D22014FD53D20057876F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A42D20714FD53D10057876F /* KinectiCopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinectiCopter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A42D20B14FD53D10057876F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1A42D20E14FD53D20057876F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1A42D20F14FD53D20057876F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A42D21014FD53D20057876F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A42D21314FD53D20057876F /* KinectiCopter-Info.plist */ = {isa = PBXFileReference; path = "KinectiCopter-Info.plist"; sourceTree = "<group>"; };
+		1A42D21514FD53D20057876F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A42D21714FD53D20057876F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A42D21914FD53D20057876F /* KinectiCopter-Prefix.pch */ = {isa = PBXFileReference; path = "KinectiCopter-Prefix.pch"; sourceTree = "<group>"; };
+		1A42D21B14FD53D20057876F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1A42D21D14FD53D20057876F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A42D21E14FD53D20057876F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A42D22114FD53D20057876F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A42D20414FD53D10057876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42D20C14FD53D10057876F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A42D1FC14FD53D10057876F = {
+			isa = PBXGroup;
+			children = (
+				1A42D21114FD53D20057876F /* KinectiCopter */,
+				1A42D20A14FD53D10057876F /* Frameworks */,
+				1A42D20814FD53D10057876F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A42D20814FD53D10057876F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A42D20714FD53D10057876F /* KinectiCopter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A42D20A14FD53D10057876F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A42D20B14FD53D10057876F /* Cocoa.framework */,
+				1A42D20D14FD53D10057876F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A42D20D14FD53D10057876F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A42D20E14FD53D20057876F /* AppKit.framework */,
+				1A42D20F14FD53D20057876F /* CoreData.framework */,
+				1A42D21014FD53D20057876F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1A42D21114FD53D20057876F /* KinectiCopter */ = {
+			isa = PBXGroup;
+			children = (
+				1A42D21D14FD53D20057876F /* AppDelegate.h */,
+				1A42D21E14FD53D20057876F /* AppDelegate.m */,
+				1A42D22014FD53D20057876F /* MainMenu.xib */,
+				1A42D21214FD53D20057876F /* Supporting Files */,
+			);
+			path = KinectiCopter;
+			sourceTree = "<group>";
+		};
+		1A42D21214FD53D20057876F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A42D21314FD53D20057876F /* KinectiCopter-Info.plist */,
+				1A42D21414FD53D20057876F /* InfoPlist.strings */,
+				1A42D21714FD53D20057876F /* main.m */,
+				1A42D21914FD53D20057876F /* KinectiCopter-Prefix.pch */,
+				1A42D21A14FD53D20057876F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A42D20614FD53D10057876F /* KinectiCopter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A42D22514FD53D20057876F /* Build configuration list for PBXNativeTarget "KinectiCopter" */;
+			buildPhases = (
+				1A42D20314FD53D10057876F /* Sources */,
+				1A42D20414FD53D10057876F /* Frameworks */,
+				1A42D20514FD53D10057876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinectiCopter;
+			productName = KinectiCopter;
+			productReference = 1A42D20714FD53D10057876F /* KinectiCopter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A42D1FE14FD53D10057876F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1A42D20114FD53D10057876F /* Build configuration list for PBXProject "KinectiCopter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A42D1FC14FD53D10057876F;
+			productRefGroup = 1A42D20814FD53D10057876F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A42D20614FD53D10057876F /* KinectiCopter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A42D20514FD53D10057876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42D21614FD53D20057876F /* InfoPlist.strings in Resources */,
+				1A42D21C14FD53D20057876F /* Credits.rtf in Resources */,
+				1A42D22214FD53D20057876F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A42D20314FD53D10057876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42D21814FD53D20057876F /* main.m in Sources */,
+				1A42D21F14FD53D20057876F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A42D21414FD53D20057876F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A42D21514FD53D20057876F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A42D21A14FD53D20057876F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A42D21B14FD53D20057876F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1A42D22014FD53D20057876F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A42D22114FD53D20057876F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A42D22314FD53D20057876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A42D22414FD53D20057876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A42D22614FD53D20057876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KinectiCopter/KinectiCopter-Prefix.pch";
+				INFOPLIST_FILE = "KinectiCopter/KinectiCopter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A42D22714FD53D20057876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KinectiCopter/KinectiCopter-Prefix.pch";
+				INFOPLIST_FILE = "KinectiCopter/KinectiCopter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A42D20114FD53D10057876F /* Build configuration list for PBXProject "KinectiCopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A42D22314FD53D20057876F /* Debug */,
+				1A42D22414FD53D20057876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A42D22514FD53D20057876F /* Build configuration list for PBXNativeTarget "KinectiCopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A42D22614FD53D20057876F /* Debug */,
+				1A42D22714FD53D20057876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A42D1FE14FD53D10057876F /* Project object */;
+}
