@@ -7,28 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1077C714FE5098003371A5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1077C614FE5098003371A5 /* CoreVideo.framework */; };
+		1A2B2012150E52C400DC722B /* Kinect Processing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B2011150E52C400DC722B /* Kinect Processing.m */; };
 		1A42D20C14FD53D10057876F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42D20B14FD53D10057876F /* Cocoa.framework */; };
 		1A42D21614FD53D20057876F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A42D21414FD53D20057876F /* InfoPlist.strings */; };
 		1A42D21814FD53D20057876F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42D21714FD53D20057876F /* main.m */; };
 		1A42D21C14FD53D20057876F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1A42D21A14FD53D20057876F /* Credits.rtf */; };
 		1A42D21F14FD53D20057876F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42D21E14FD53D20057876F /* AppDelegate.m */; };
 		1A42D22214FD53D20057876F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A42D22014FD53D20057876F /* MainMenu.xib */; };
+		1A42D22914FD53E20057876F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42D22814FD53E20057876F /* OpenGL.framework */; };
+		1A42D22B14FD53EC0057876F /* libfreenect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42D22A14FD53EC0057876F /* libfreenect.dylib */; };
+		1A42D22E14FD542C0057876F /* Kinect Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42D22D14FD542C0057876F /* Kinect Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A42D20714FD53D10057876F /* KinectiCopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinectiCopter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1077C614FE5098003371A5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1A2B2010150E52C400DC722B /* Kinect Processing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Kinect Processing.h"; path = "Kinect Classes/Kinect Processing.h"; sourceTree = "<group>"; };
+		1A2B2011150E52C400DC722B /* Kinect Processing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Kinect Processing.m"; path = "Kinect Classes/Kinect Processing.m"; sourceTree = "<group>"; };
+		1A42D20714FD53D10057876F /* OpenKinect Cocoa Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenKinect Cocoa Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A42D20B14FD53D10057876F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1A42D20E14FD53D20057876F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1A42D20F14FD53D20057876F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1A42D21014FD53D20057876F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1A42D21314FD53D20057876F /* KinectiCopter-Info.plist */ = {isa = PBXFileReference; path = "KinectiCopter-Info.plist"; sourceTree = "<group>"; };
+		1A42D21314FD53D20057876F /* OpenKinect Cocoa Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenKinect Cocoa Example-Info.plist"; sourceTree = "<group>"; };
 		1A42D21514FD53D20057876F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A42D21714FD53D20057876F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A42D21914FD53D20057876F /* KinectiCopter-Prefix.pch */ = {isa = PBXFileReference; path = "KinectiCopter-Prefix.pch"; sourceTree = "<group>"; };
+		1A42D21914FD53D20057876F /* OpenKinect Cocoa Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenKinect Cocoa Example-Prefix.pch"; sourceTree = "<group>"; };
 		1A42D21B14FD53D20057876F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		1A42D21D14FD53D20057876F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A42D21D14FD53D20057876F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A42D21E14FD53D20057876F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1A42D22114FD53D20057876F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1A42D22814FD53E20057876F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1A42D22A14FD53EC0057876F /* libfreenect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect.dylib; path = usr/local/lib/libfreenect.dylib; sourceTree = SDKROOT; };
+		1A42D22C14FD542C0057876F /* Kinect Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Kinect Controller.h"; path = "Kinect Classes/Kinect Controller.h"; sourceTree = "<group>"; };
+		1A42D22D14FD542C0057876F /* Kinect Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Kinect Controller.m"; path = "Kinect Classes/Kinect Controller.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A42D22B14FD53EC0057876F /* libfreenect.dylib in Frameworks */,
+				1A42D22914FD53E20057876F /* OpenGL.framework in Frameworks */,
+				1A1077C714FE5098003371A5 /* CoreVideo.framework in Frameworks */,
 				1A42D20C14FD53D10057876F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,16 +61,18 @@
 		1A42D1FC14FD53D10057876F = {
 			isa = PBXGroup;
 			children = (
+				1A42D22F14FD542F0057876F /* Kinect Classes */,
 				1A42D21114FD53D20057876F /* KinectiCopter */,
 				1A42D20A14FD53D10057876F /* Frameworks */,
 				1A42D20814FD53D10057876F /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		1A42D20814FD53D10057876F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A42D20714FD53D10057876F /* KinectiCopter.app */,
+				1A42D20714FD53D10057876F /* OpenKinect Cocoa Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +80,9 @@
 		1A42D20A14FD53D10057876F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A42D22A14FD53EC0057876F /* libfreenect.dylib */,
+				1A42D22814FD53E20057876F /* OpenGL.framework */,
+				1A1077C614FE5098003371A5 /* CoreVideo.framework */,
 				1A42D20B14FD53D10057876F /* Cocoa.framework */,
 				1A42D20D14FD53D10057876F /* Other Frameworks */,
 			);
@@ -93,21 +113,32 @@
 		1A42D21214FD53D20057876F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A42D21314FD53D20057876F /* KinectiCopter-Info.plist */,
+				1A42D21314FD53D20057876F /* OpenKinect Cocoa Example-Info.plist */,
 				1A42D21414FD53D20057876F /* InfoPlist.strings */,
 				1A42D21714FD53D20057876F /* main.m */,
-				1A42D21914FD53D20057876F /* KinectiCopter-Prefix.pch */,
+				1A42D21914FD53D20057876F /* OpenKinect Cocoa Example-Prefix.pch */,
 				1A42D21A14FD53D20057876F /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1A42D22F14FD542F0057876F /* Kinect Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A42D22C14FD542C0057876F /* Kinect Controller.h */,
+				1A42D22D14FD542C0057876F /* Kinect Controller.m */,
+				1A2B2010150E52C400DC722B /* Kinect Processing.h */,
+				1A2B2011150E52C400DC722B /* Kinect Processing.m */,
+			);
+			name = "Kinect Classes";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A42D20614FD53D10057876F /* KinectiCopter */ = {
+		1A42D20614FD53D10057876F /* OpenKinect Cocoa Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A42D22514FD53D20057876F /* Build configuration list for PBXNativeTarget "KinectiCopter" */;
+			buildConfigurationList = 1A42D22514FD53D20057876F /* Build configuration list for PBXNativeTarget "OpenKinect Cocoa Example" */;
 			buildPhases = (
 				1A42D20314FD53D10057876F /* Sources */,
 				1A42D20414FD53D10057876F /* Frameworks */,
@@ -117,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = KinectiCopter;
+			name = "OpenKinect Cocoa Example";
 			productName = KinectiCopter;
-			productReference = 1A42D20714FD53D10057876F /* KinectiCopter.app */;
+			productReference = 1A42D20714FD53D10057876F /* OpenKinect Cocoa Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,8 +160,9 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "James Reuss";
 			};
-			buildConfigurationList = 1A42D20114FD53D10057876F /* Build configuration list for PBXProject "KinectiCopter" */;
+			buildConfigurationList = 1A42D20114FD53D10057876F /* Build configuration list for PBXProject "OpenKinect Cocoa Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -142,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A42D20614FD53D10057876F /* KinectiCopter */,
+				1A42D20614FD53D10057876F /* OpenKinect Cocoa Example */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +199,8 @@
 			files = (
 				1A42D21814FD53D20057876F /* main.m in Sources */,
 				1A42D21F14FD53D20057876F /* AppDelegate.m in Sources */,
+				1A42D22E14FD542C0057876F /* Kinect Controller.m in Sources */,
+				1A2B2012150E52C400DC722B /* Kinect Processing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +283,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KinectiCopter/KinectiCopter-Prefix.pch";
-				INFOPLIST_FILE = "KinectiCopter/KinectiCopter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KinectiCopter/OpenKinect Cocoa Example-Prefix.pch";
+				INFOPLIST_FILE = "KinectiCopter/OpenKinect Cocoa Example-Info.plist";
+				PRODUCT_NAME = "OpenKinect Cocoa Example";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -260,9 +295,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KinectiCopter/KinectiCopter-Prefix.pch";
-				INFOPLIST_FILE = "KinectiCopter/KinectiCopter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KinectiCopter/OpenKinect Cocoa Example-Prefix.pch";
+				INFOPLIST_FILE = "KinectiCopter/OpenKinect Cocoa Example-Info.plist";
+				PRODUCT_NAME = "OpenKinect Cocoa Example";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -270,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A42D20114FD53D10057876F /* Build configuration list for PBXProject "KinectiCopter" */ = {
+		1A42D20114FD53D10057876F /* Build configuration list for PBXProject "OpenKinect Cocoa Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A42D22314FD53D20057876F /* Debug */,
@@ -279,13 +315,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A42D22514FD53D20057876F /* Build configuration list for PBXNativeTarget "KinectiCopter" */ = {
+		1A42D22514FD53D20057876F /* Build configuration list for PBXNativeTarget "OpenKinect Cocoa Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A42D22614FD53D20057876F /* Debug */,
 				1A42D22714FD53D20057876F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
