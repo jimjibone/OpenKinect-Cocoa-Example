@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A1077C714FE5098003371A5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1077C614FE5098003371A5 /* CoreVideo.framework */; };
+		1A1D278D151657B70019B46F /* README in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D278C151657B70019B46F /* README */; };
 		1A2B2012150E52C400DC722B /* Kinect Processing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B2011150E52C400DC722B /* Kinect Processing.m */; };
 		1A42D20C14FD53D10057876F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42D20B14FD53D10057876F /* Cocoa.framework */; };
 		1A42D21614FD53D20057876F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A42D21414FD53D20057876F /* InfoPlist.strings */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		1A1077C614FE5098003371A5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1A1D278C151657B70019B46F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 		1A2B2010150E52C400DC722B /* Kinect Processing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Kinect Processing.h"; path = "Kinect Classes/Kinect Processing.h"; sourceTree = "<group>"; };
 		1A2B2011150E52C400DC722B /* Kinect Processing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Kinect Processing.m"; path = "Kinect Classes/Kinect Processing.m"; sourceTree = "<group>"; };
 		1A42D20714FD53D10057876F /* OpenKinect Cocoa Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenKinect Cocoa Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 				1A42D21714FD53D20057876F /* main.m */,
 				1A42D21914FD53D20057876F /* OpenKinect Cocoa Example-Prefix.pch */,
 				1A42D21A14FD53D20057876F /* Credits.rtf */,
+				1A1D278C151657B70019B46F /* README */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				1A42D21614FD53D20057876F /* InfoPlist.strings in Resources */,
 				1A42D21C14FD53D20057876F /* Credits.rtf in Resources */,
 				1A42D22214FD53D20057876F /* MainMenu.xib in Resources */,
+				1A1D278D151657B70019B46F /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

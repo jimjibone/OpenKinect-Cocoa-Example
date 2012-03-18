@@ -1,0 +1,19 @@
+OpenKinect Cocoa Example
+
+This uses the libfreenect library produced by the good people of the OpenKinect community. This code gives an example on how to use the libfreenect library with your Cocoa applications in Mac OS X.
+
+It took me ages to learn how to begin programming with the Kinect on my Mac and there wasnt a great deal of help on the internet that I could find :( so I spent a long time figuring it all out (especially with OpenGL, that thing is a bastard) and then I finally created this app which will form the final application to a guide I will make in the summer.
+
+The guide will take a semi-begginner programmer (someone who is already experienced with Objective-C, im not going to go and teach that but I will give a link to a guy on youtube who taught me), show them how to install all the libraries they need and then take them though all the steps necessary to produce this code.
+To be honest I wish I found this on the internet myself ha ha, oh well :) I like working things out.
+
+To use this code you will first need to install libfreenect:
+- Theres the OpenKinect website which will be more up to date - http://openkinect.org/wiki/Getting_Started
+- Or there is my website where I have outlined a method - http://jamesreuss.wordpress.com/2012/01/28/installing-openkinect-and-opencv-the-easy-way-on-a-mac/
+
+And then you will need to download the code from this GitHub page, your best bet is probably using the download as .zip button or by going into your Terminal app and pasting in:
+git clone git://github.com/jimjibone/OpenKinect-Cocoa-Example.git
+
+You can then open up the "OpenKinect Cocoa Example.xcodeproj" file and build & run it and have a play. Make sure you have a Kinect though ;)
+
+A feature you might like though is where you can export and import point cloud files (.pcf), I'll include one in there for you to play with if you dont have a Kinect yet.
