@@ -190,7 +190,7 @@
 	NSDate *date = [NSDate date];*/
 	
 	// Set up a string for the default file name.
-	NSString *defaultName = [NSString stringWithString:@"Kinect Point Cloud"];
+	NSString *defaultName = @"Kinect Point Cloud";
 	defaultName = [defaultName stringByAppendingPathExtension:@"pcf"];
 	
 	// Show the save window for the user.
