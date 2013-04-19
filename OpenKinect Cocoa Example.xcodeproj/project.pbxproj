@@ -288,7 +288,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KinectiCopter/OpenKinect Cocoa Example-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/libfreenect/0.1.2/include/,
+					/usr/local/Cellar/libusb/1.0.9/include/,
+				);
 				INFOPLIST_FILE = "KinectiCopter/OpenKinect Cocoa Example-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/libfreenect/0.1.2/lib/;
 				PRODUCT_NAME = "OpenKinect Cocoa Example";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -300,7 +305,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KinectiCopter/OpenKinect Cocoa Example-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/libfreenect/0.1.2/include/,
+					/usr/local/Cellar/libusb/1.0.9/include/,
+				);
 				INFOPLIST_FILE = "KinectiCopter/OpenKinect Cocoa Example-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/libfreenect/0.1.2/lib/;
 				PRODUCT_NAME = "OpenKinect Cocoa Example";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
