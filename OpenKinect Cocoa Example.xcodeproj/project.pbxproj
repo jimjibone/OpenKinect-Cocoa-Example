@@ -17,8 +17,8 @@
 		1A42D21F14FD53D20057876F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42D21E14FD53D20057876F /* AppDelegate.m */; };
 		1A42D22214FD53D20057876F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A42D22014FD53D20057876F /* MainMenu.xib */; };
 		1A42D22914FD53E20057876F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42D22814FD53E20057876F /* OpenGL.framework */; };
-		1A42D22B14FD53EC0057876F /* libfreenect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A42D22A14FD53EC0057876F /* libfreenect.dylib */; };
 		1A42D22E14FD542C0057876F /* Kinect Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A42D22D14FD542C0057876F /* Kinect Controller.m */; };
+		D14A7CD01728703D007C20BD /* libfreenect.0.1.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D14A7CCF1728703D007C20BD /* libfreenect.0.1.2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,9 +40,9 @@
 		1A42D21E14FD53D20057876F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1A42D22114FD53D20057876F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1A42D22814FD53E20057876F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		1A42D22A14FD53EC0057876F /* libfreenect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect.dylib; path = usr/local/lib/libfreenect.dylib; sourceTree = SDKROOT; };
 		1A42D22C14FD542C0057876F /* Kinect Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Kinect Controller.h"; path = "Kinect Classes/Kinect Controller.h"; sourceTree = "<group>"; };
 		1A42D22D14FD542C0057876F /* Kinect Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Kinect Controller.m"; path = "Kinect Classes/Kinect Controller.m"; sourceTree = "<group>"; };
+		D14A7CCF1728703D007C20BD /* libfreenect.0.1.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect.0.1.2.dylib; path = /usr/local/Cellar/libfreenect/0.1.2.1/lib/libfreenect.0.1.2.dylib; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A42D22B14FD53EC0057876F /* libfreenect.dylib in Frameworks */,
+				D14A7CD01728703D007C20BD /* libfreenect.0.1.2.dylib in Frameworks */,
 				1A42D22914FD53E20057876F /* OpenGL.framework in Frameworks */,
 				1A1077C714FE5098003371A5 /* CoreVideo.framework in Frameworks */,
 				1A42D20C14FD53D10057876F /* Cocoa.framework in Frameworks */,
@@ -82,7 +82,7 @@
 		1A42D20A14FD53D10057876F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A42D22A14FD53EC0057876F /* libfreenect.dylib */,
+				D14A7CCF1728703D007C20BD /* libfreenect.0.1.2.dylib */,
 				1A42D22814FD53E20057876F /* OpenGL.framework */,
 				1A1077C614FE5098003371A5 /* CoreVideo.framework */,
 				1A42D20B14FD53D10057876F /* Cocoa.framework */,
@@ -288,12 +288,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KinectiCopter/OpenKinect Cocoa Example-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					/usr/local/Cellar/libfreenect/0.1.2/include/,
-					/usr/local/Cellar/libusb/1.0.9/include/,
-				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "KinectiCopter/OpenKinect Cocoa Example-Info.plist";
-				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/libfreenect/0.1.2/lib/;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/libfreenect/0.1.2.1/lib;
 				PRODUCT_NAME = "OpenKinect Cocoa Example";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -305,12 +302,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KinectiCopter/OpenKinect Cocoa Example-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					/usr/local/Cellar/libfreenect/0.1.2/include/,
-					/usr/local/Cellar/libusb/1.0.9/include/,
-				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "KinectiCopter/OpenKinect Cocoa Example-Info.plist";
-				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/libfreenect/0.1.2/lib/;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/libfreenect/0.1.2.1/lib;
 				PRODUCT_NAME = "OpenKinect Cocoa Example";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
